@@ -3,7 +3,7 @@ export default function handler(req, res) {
   res.status(200).send(`<?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <Play>https://us-central-1.telnyxcloudstorage.com/fcgcaudio/audio.mp3</Play>
-  <Gather action="https://fci-humz3ue19-sams-projects-e77bff13.vercel.app/api/menu" method="POST" numDigits="1" timeout="5">
+  <Gather action="https://fci-ivr.vercel.app/api/main-menu" method="POST" numDigits="1" timeout="5">
     <Play>https://us-central-1.telnyxcloudstorage.com/fcgcaudio/audio.mp3</Play>
   </Gather>
   <Hangup/>
